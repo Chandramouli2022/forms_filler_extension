@@ -1,0 +1,50 @@
+{
+  "manifest_version": 3,
+  "name": "Quick Form Autofill",
+  "description": "One click autofill for job application forms.",
+  "version": "1.0.0",
+
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+
+  "host_permissions": [
+    "<all_urls>"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "action": {},
+
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "profile.json",
+        "popup.css"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "utils.js",
+        "profileLoader.js",
+        "content.js"
+      ],
+      "css": [
+        "floating.css"
+      ]
+    }
+  ]
+}

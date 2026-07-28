@@ -1,0 +1,61 @@
+{
+  "name": "Alex Johnson",
+  "line1": "221B Maple Avenue",
+  "city": "Austin",
+  "state": "Texas",
+  "country": "USA",
+  "pinCode": "78701",
+  "phoneNo": "9876543210",
+  "email": "alex.johnson@example.com",
+
+  "University": "University of California, Berkeley",
+  "degree": "Bachelor",
+  "fieldOfStudy": "Computer Science",
+  "degreeStartDate": "08-2018",
+  "degreeEndDate": "05-2022",
+  "gpa": "3.78/4.0",
+
+  "role/Title": "Full Stack Software Engineer",
+  "company": "TechNova Solutions",
+  "jobLocation": "Austin, Texas",
+  "jobStartDate": "07-2022",
+  "jobEndDate": "Present",
+
+  "description": "Developed scalable web applications using the MERN stack. Built RESTful APIs with Node.js and Express.js, optimized MongoDB queries, and integrated PostgreSQL for relational data. Designed responsive user interfaces with React.js and Redux. Implemented JWT authentication, role-based authorization, Docker containerization, Kubernetes deployments, and CI/CD pipelines. Collaborated in Agile teams to deliver enterprise-grade software with high performance and reliability.",
+
+  "currentCTC": "95000",
+  "expectedCTC": "120000",
+
+  "leetcode": "https://leetcode.com/u/alexjohnson/",
+  "github": "https://github.com/alexjohnson",
+  "linkedin": "https://www.linkedin.com/in/alexjohnson",
+  "personal": "https://alexjohnson.dev",
+
+  "skillsData": [
+    "JavaScript",
+    "TypeScript",
+    "React.js",
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "Python",
+    "FastAPI",
+    "MongoDB",
+    "PostgreSQL",
+    "REST APIs",
+    "GraphQL",
+    "AWS",
+    "Docker",
+    "Kubernetes",
+    "Redis",
+    "JWT",
+    "Redux",
+    "Git",
+    "GitHub",
+    "CI/CD",
+    "Jest",
+    "Microservices",
+    "Agile",
+    "Problem Solving"
+  ]
+}
